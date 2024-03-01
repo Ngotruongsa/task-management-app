@@ -8,7 +8,7 @@ import TaskList from "@/components/TaskList";
 export default function Home() {
   const [activeTab, setActiveTab] = useState("ASSIGNED"); // Initial active tab
 
-  const handleTabClick = (tab) => {
+  const handleTabClick = (tab: string) => {
     setActiveTab(tab);
   };
 
